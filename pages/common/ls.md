@@ -34,3 +34,11 @@
 - Only list directories:
 
 `ls -d {{*/}}`
+
+- Recursively list the contents of the directory as well as all subdirectories:
+
+`ls -R`
+
+- List files in a directory other than the current working directory:
+
+`ls {{directory}}`
